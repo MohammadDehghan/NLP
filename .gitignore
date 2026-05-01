@@ -1,0 +1,57 @@
+# Keep README local only
+README.md
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data files
+data/
+*.csv
+*.parquet
+*.jsonl
+*.json
+
+# Model weights and adapters
+*.bin
+*.safetensors
+*.pt
+*.pth
+adapters/
+submissions/
+
+# Kaggle
+*.zip
+kaggle.json
+
+# Secrets / env
+.env
+*.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
